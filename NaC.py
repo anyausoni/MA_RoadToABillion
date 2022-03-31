@@ -1,5 +1,8 @@
 #module code for noughts and crosses 
 
-import numpy as np
+#initialise nested-list
+grid = [[None, None, None],
+    [None, None, None],
+    [None, None, None]]
 
-a = np.zeros(shape=(3,3))
+print(grid)
